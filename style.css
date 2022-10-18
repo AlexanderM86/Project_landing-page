@@ -82,6 +82,7 @@ h1 {
 
 .pagemiddle {
     align-items: center;
+    padding: 60px;
 }
 
 .middleinfocontainers {
@@ -91,8 +92,10 @@ h1 {
 }
 
 .middleheader {
-    
-
+    padding: 25px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #58418f;
 }
 
 .middleinfocontainers img {
@@ -102,4 +105,76 @@ h1 {
     border: 4px solid #58418f;
     border-radius: 15px;
     margin: 5px 20px 0px 20px;
+}
+
+.pagemiddle2 {
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;   
+}
+
+.quote {
+    font-size: 36px;
+    padding: 40px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.quotefrom {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: right;
+}
+
+.pagelower {
+    background-color: #58418f;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border-color: none;
+}
+.lowercontent {
+    flex: 1;
+}
+
+.ltext {
+    text-align: left;
+}
+
+h3 {
+    
+    color: #fff;
+    padding: 0;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 30px 0px 0px 50px;
+}
+
+.ltext p {
+    color: #fff;
+    font-style: italic;
+    
+    margin: 5px 30px 30px 50px;   
+}
+
+.chipin2 {
+    text-align: right;
+    color: #fff;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: #58418f;
+    padding: 5px 25px;
+    font-size: 15px;
+}
+
+
+.footer {
+    padding: 25px;
+    color: #fff;
+    background-color: #474353;
 }
